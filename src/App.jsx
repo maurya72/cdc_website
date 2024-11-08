@@ -2,21 +2,11 @@
 
 // IMPORTING ROUTES
 // import SiteRoutes from './routes.js'
-
-
+import RegistrationForm from "./components/RegistrationForm.jsx";
 function App() {
 
   return (
-    <>
-      {/* <BrowserRouter>
-        <Routes>
-          {SiteRoutes.map((route, index) => (
-            <Route key={index} path={route.path} element={path.element}></Route>
-          ))}
-        </Routes>
-      </BrowserRouter> */}
-
-    </>
+        <RegistrationForm/>
   )
 }
 
